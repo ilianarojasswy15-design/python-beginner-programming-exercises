@@ -10,8 +10,7 @@ elif user_input <=100:
     price=10000
 elif user_input <=200:
     price=15000
-else:
-    user_input >200
+else user_input >200:
     price=20000
 
 # ❌ ↓ DON'T CHANGE THE CODE BELOW ↓ ❌

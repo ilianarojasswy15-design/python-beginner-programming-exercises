@@ -6,19 +6,10 @@ def spin_chamber():
 	chamber_position = random.randint(1,6)
 	return chamber_position
 
-
 # ❌ ⬆ DON'T CHANGE THE CODE ABOVE ⬆ ❌
 def fire_gun():
 	# ✅ ↓ your code here ↓ ✅
-	#chamber_p = i
-	#for i in range (1,7):
-		#spin_chamber()
-		#return chamber_p
-	if spin_chamber() == bullet_position:
-		return "You are dead!"
-	else:
-		return "Keep playing!"
-
+	return None
 
 
 print(fire_gun())
